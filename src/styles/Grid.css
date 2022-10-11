@@ -1,0 +1,38 @@
+@media (max-width:1010px){
+    .grid{
+        display: grid;
+        grid-template-columns: none;
+    }
+    .grid img {
+        max-width: 50%;
+        height: 50%;
+    }
+    #box-2, #box-3{
+        display: none;
+    }
+    #box-4{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+.App section .card-one, .card-two, .card-three, .card-four {
+    max-width: 100%;
+}
+.App main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.App main .box-1, .box-2, .box-3, .box-4, .box-5{
+    text-align: left;
+    display: flex;
+    width: 100%;
+}
+.App main img {
+    border-radius: 100%;
+}
+.App main p {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: var(--bg-color-secundary)
+}

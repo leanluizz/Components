@@ -1,0 +1,30 @@
+:root{
+    --bg-color-primary: rgba(0, 0, 0, 0.886);
+    --bg-color-secundary: white;
+}
+body{
+ background-color: var(--bg-color-primary);
+}
+li{
+    list-style-type: none;
+    text-align: center;
+}
+@media (max-width:400px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    #menu-box-list{
+        display: none;
+    }
+    .menu-icon{
+        margin: auto;
+    }
+}
+@media (max-width:950px){
+.App section {
+    display: flex;
+    flex-direction: column;
+}
+}
+

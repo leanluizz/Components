@@ -1,0 +1,28 @@
+:root{
+    --bg-color-primary: rgba(0, 0, 0, 0.886);
+    --bg-color-secundary: white; 
+}
+.App .menu{
+    margin: auto;
+    background-color: var(--bg-color-secundary);
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+.App .menu div ul {
+    display: inline-flex;
+}
+.App .menu div ul li a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--bg-color-primary);
+}
+.App .menu div ul li ul{
+ display: none;
+ padding: 0;
+ background-color: var(--bg-color-secundary);
+}
+.App .menu div ul li a:hover ~ .menu-content-list,
+.menu div ul li ul:hover{
+    display: block;
+}
