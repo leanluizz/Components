@@ -5,7 +5,7 @@
     }
     }
     .App section img {
-        animation: Rotation 2s alternate;
+        animation: Rotate 2s alternate;
     }
     .App section .card-one, .card-two, .card-three, .card-four {
         max-width: 100%;

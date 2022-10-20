@@ -13,7 +13,7 @@
         padding-top:0px;
     }
 }
-@keyframes Rotation {
+@keyframes Rotate {
     0%{
         transform: rotateY(0deg);
     }
