@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Landing Page
+
+## Coffee-Page EXAMPLE!
+You can re-use the components:
+
+> DropDown
+
+> Grid
+
+Install dependencies for use the app
+
+### `npm i`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
