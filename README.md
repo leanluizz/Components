@@ -1,6 +1,6 @@
 # Landing Page
 
-##Coffee-Page EXAMPLE!
+## Coffee-Page EXAMPLE!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
