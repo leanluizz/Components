@@ -4,8 +4,8 @@ import "../styles/Menu.css";
 
 export default function DropdDown (props) {
     return(
-    <div>
-    <ul id="menu-box-list">
+    <div style={props.style}>
+    <ul id="menu-box-list" style={props.style}>
       <li><a href="#">{props.titleOne}</a>
         <ul className='menu-content-list'>
           <li><a href="#">{props.subtitleOne}</a></li>
@@ -13,13 +13,13 @@ export default function DropdDown (props) {
         </ul>
       </li>
       <li><a href="#">{props.titleTwo}</a>
-      <ul className='menu-content-list'>
+      <ul className='menu-content-list' style={props.style}>
           <li><a href="#">{props.subtitleThree}</a></li>
           <li><a href="#">{props.subtitleFour}</a></li>
         </ul>
         </li>
       <li><a href="#">{props.titleThree}</a>
-      <ul className='menu-content-list'>
+      <ul className='menu-content-list' style={props.style}>
           <li><a href="#">{props.subtitleFive}</a></li>
           <li><a href="#">{props.subtitleSix}</a></li>
         </ul>

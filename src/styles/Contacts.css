@@ -1,0 +1,40 @@
+@media (max-width:600px) {
+
+    .waitress,#contacts div p{
+        display: none;
+    }
+    #contacts{
+        background-color: transparent;
+        position: fixed;
+        left: 1%;
+        bottom: 1%;
+    }
+    #contacts div span img:hover {
+      filter:invert(100);
+    }
+}
+@media (min-width:600px){
+    .waitress{
+        max-width: 50%;
+    }
+    #contacts div p {
+        font-size: 2vw;
+    }
+}
+.contacts{
+    background-color: white;
+    display: flex;
+    margin-top: 50px;
+}
+.contacts div p{
+    text-align: center;
+    margin: 4rem;
+    width: 30%;
+    height: 20vh;
+    font-family: Coffee;
+    font-size: 1.5em;
+}
+.waitress {
+     position: absolute;
+     left: 50%;
+}

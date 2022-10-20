@@ -2,11 +2,61 @@
     --bg-color-primary: rgba(0, 0, 0, 0.886);
     --bg-color-secundary: white; 
 }
+@font-face {
+    font-family: Coffee;
+    src: url("../fonts/CoffeesDemoRegular.ttf");
+}
+
+@media (max-width:600px) {
+    #menu-box-list{
+        display: none;
+    }
+    .menu-icon{
+        margin: auto;
+    }
+}
+
+@media (min-width:600px){
+    .App .menu-cell{
+        display: none;
+    }
+}
+.menu-cell ul div button {
+    border-radius: 12px;
+    background-color: transparent;
+    outline: 0;
+    border:0;
+}
+.menu-cell ul div div img{
+    padding-left: 50%;
+}
+.menu-cell ul div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-cell ul li {
+    padding-bottom: 20px;
+}
+.menu-cell{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    margin-left: -580px;
+}
+.App .menu-cell ul{
+    display: flex;
+    flex-direction: column;
+}
 .App .menu{
     margin: auto;
+    font-family: Coffee;
     background-color: var(--bg-color-secundary);
     display: flex;
     justify-content: space-around;
+    justify-items: center;
+    align-items: center;
     height: 15vh;
 }
 .App .menu div ul {

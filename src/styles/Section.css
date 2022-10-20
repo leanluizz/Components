@@ -1,0 +1,17 @@
+@media (max-width:950px){
+    .App section {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    .App section img {
+        animation: Rotation 2s alternate;
+    }
+    .App section .card-one, .card-two, .card-three, .card-four {
+        max-width: 100%;
+    }
+    @media (min-width:350px) and (max-width:945px){
+        .cards{
+            margin: 50px;
+        }
+    }
